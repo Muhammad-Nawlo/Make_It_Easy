@@ -1,0 +1,17 @@
+@media screen and (max-width: 400px) {
+    .sidebar {
+        width: 240px;
+        .profile-details {
+            width: 240px;
+        }
+        &.close{
+            width: 78px;
+            .profile-details {
+                background: none;
+                width: 78px;
+
+            }
+
+        }
+    }
+}
